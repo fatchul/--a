@@ -1,0 +1,110 @@
+/*Custom CSS*/
+
+.total-wrapper > header,
+.editor.pane,
+.ui-splitbar,
+[tooltip-popup],
+.jump-to-yaml {
+    display: none !important;
+}
+
+.preview.pane {
+    position: fixed;
+    left: 0 !important;
+    top: 0 !important;
+    right: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.endpoints {
+    width: 58em;
+    max-height: 100% !important;
+    padding-left: 0px
+}
+
+.footer {
+    padding-left: 1em !important
+}
+
+.footer > h4 {
+    margin-bottom: 0px !important;
+    font-size: 1em !important
+}
+
+.well > .swagger-ui-wrap > .container > ul {
+    margin-bottom: 0px !important;
+    padding-left: 1em !important
+}
+
+.container > .authorize-wrapper {
+    margin-bottom: 0px !important;
+    margin-top: 0px !important
+}
+
+/*.sidenav {
+    background-color: 
+}*/
+
+ul > li > .toggleEndpointList {
+  border: 2px solid #999999;
+  background-color: transparent;
+  color: #333;
+  line-height: 15px;
+  font-weight: 600;
+  text-shadow: none;
+  padding: 0px 14px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 11px;
+  cursor: pointer;
+}
+
+ul > li > .collapseResource {
+  border: 2px solid #999999;
+  background-color: transparent;
+  color: #333;
+  line-height: 15px;
+  font-weight: 600;
+  text-shadow: none;
+  padding: 0px 14px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 11px;
+  cursor: pointer;
+}
+
+ul > li > .expandResource {
+  border: 2px solid #999999;
+  background-color: transparent;
+  color: #333;
+  line-height: 15px;
+  font-weight: 600;
+  text-shadow: none;
+  padding: 0px 14px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 11px;
+  cursor: pointer;
+}
+
+ 
+.swagger-section .swagger-ui-wrap ul#resources li.resource div.heading ul.options li a:hover,
+.swagger-section .swagger-ui-wrap ul#resources li.resource div.heading ul.options li a:active,
+.swagger-section .swagger-ui-wrap ul#resources li.resource div.heading ul.options li a.active {
+  border: 2px solid #f37e00;
+  background-color: #f37e00;
+  color: #fff;
+  line-height: 15px;
+  font-weight: 600;
+  text-shadow: none;
+  padding: 0px 14px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 11px;
+  cursor: pointer;
+}
